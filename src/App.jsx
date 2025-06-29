@@ -8,6 +8,7 @@ import Ycomb from './components/Ycomb'
 import Lines from './components/Lines'
 import Button from './components/Button'
 import Cards from './components/Cards'
+import UsecaseCard from './components/UsecaseCard'
 
 function App() {
   
@@ -40,11 +41,14 @@ a million things to follow up on — we're here to take the load off"/>
     <Lines text1="We combine document parsing, decision logic, and agent-driven execution to handle tasks end-to-end — not just pass data from one app to another."/>
    </div>
 <div>
-  <Cards />
+  <div className='text-2xl font-bold mt-10'>
+  <Lines text1="Use Cases"/>
+  <div className='font-thin text-md'><Lines text1="See how Idler can"/></div>
+  <Lines text1="save you time"/>
+</div>
 </div>
 
-
-
+<div><UsecaseCard title="Order Fulfillment" title1="before" desc1="Manual PO processing, spreadsheet updates, email coordination" title2="After" desc2="Automated PO processing, real-time inventory updates, automated shipping notifications" svg="" button=""/></div>
    </div>
     </>
   )
