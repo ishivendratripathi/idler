@@ -10,6 +10,7 @@ import Button from './components/Button'
 import Cards from './components/Cards'
 import UsecaseCard from './components/UsecaseCard'
 import { FaWpforms } from "react-icons/fa";
+import Faq from './components/Faq'
 
 function App() {
   
@@ -53,8 +54,19 @@ a million things to follow up on — we're here to take the load off"/>
   <UsecaseCard title="Order Fulfillment" title1="before" desc1="Manual PO processing, spreadsheet updates, email coordination" title2="After" desc2="Automated PO processing, real-time inventory updates, automated shipping notifications" svg={<FaWpforms />} button="3 hours/week saved"/>
   <UsecaseCard title="Order Fulfillment" title1="before" desc1="Manual PO processing, spreadsheet updates, email coordination" title2="After" desc2="Automated PO processing, real-time inventory updates, automated shipping notifications" svg={<FaWpforms />} button="3 hours/week saved"/>
   <UsecaseCard title="Order Fulfillment" title1="before" desc1="Manual PO processing, spreadsheet updates, email coordination" title2="After" desc2="Automated PO processing, real-time inventory updates, automated shipping notifications" svg={<FaWpforms />} button="3 hours/week saved"/>
-
   </div>
+ <div className='font-bold text-xl'>
+  <Lines text1="How It Works"/>
+ </div>
+ <div className='text-gray-500'>
+  <Lines text1="Get started with Idler in"/> 
+ </div>
+ <div>
+  <Lines text1="three simple steps"/>
+ </div>
+ <div>
+  <Faq/>
+ </div>
    </div>
     </>
   )
